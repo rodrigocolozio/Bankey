@@ -121,6 +121,7 @@ extension LoginViewController {
         }
         if username == "Kevin" && password == "Welcome" {
             signInButton.configuration?.showsActivityIndicator = true
+            configureNextAction()
         } else {
             configureView(withMessage: "Incorrect username / password")
         }
@@ -129,6 +130,11 @@ extension LoginViewController {
     private func configureView(withMessage message: String) {
         errorMessageLabel.isHidden = false
         errorMessageLabel.text = message
+    }
+    
+    private func configureNextAction() {
+        let vc = OnboardingContainerViewController()
+        present(vc, animated: true)
     }
 }
 

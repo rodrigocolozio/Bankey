@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0C4479192A181AB7002D0EF7 /* Onboarding */,
-				0C4479162A17316E002D0EF7 /* Resources */,
 				0C4479152A173148002D0EF7 /* Login */,
+				0C4479162A17316E002D0EF7 /* Resources */,
 				0C4479142A1730E8002D0EF7 /* Files */,
 			);
 			path = Bankey;
