@@ -116,5 +116,6 @@ extension OnboardingContainerViewController: UIPageViewControllerDataSource {
 extension OnboardingContainerViewController {
     @objc func closeTapped(_ sender: UIButton) {
         // TODO
+        // Go to the actual application view
     }
 }
